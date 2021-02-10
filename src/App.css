@@ -4,7 +4,7 @@ body{
 }
 
 .row{
-    margin: 0;
+    margin: 0!important;
     padding: 20% 0%;
     background-color: #ffa372;
     width: 100%;
@@ -47,7 +47,7 @@ body{
 }
 .skills{
     text-align: center;
-    padding: 4% 4%;
+    padding: 4% 0%;
 }
 .skills h1 {
     text-decoration: underline #43658b;
@@ -58,7 +58,7 @@ body{
     background: #4e89ae;
 }
 .cardBody{
-    margin: 2%;
+    margin: 0%;
     background-color: #ffa372;
     padding: 3% 2%;
     border-radius: 5%;
@@ -116,6 +116,13 @@ body{
 }
 .footerEmail:hover {
     color: #fc403c;
+}
+.bin-clock-bulb-base{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    border-radius: 15px;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 @media only screen and (max-width: 768px) {
 
